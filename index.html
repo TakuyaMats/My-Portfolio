@@ -7,33 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Assets/style.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
     <div class="header">
+        <h1>Takuya Matsumoto</h1>
+        <p>Welcome to my Portfolio!</p>
+    </div>
+    <div class="navbar">
         <nav>
             <div class="content-wrapper">
-                <a href="#About Me">About Me</a>
-                <a href="#Work">Work</a>
-                <a href="#Contact Me">Contact Me</a>
-                <a href="#Resume">Resume</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#main">Work</a>
+                <a href="#contactMe">Contact Me</a>
+                <a href="#resume">Resume</a>
             </div>
         </nav>
     </div>
-    <article id="About Me">
-        <h1>About Me</h1>
-    </article>
-    <section id="Work">
-        <h1>Work</h1>
-    </section>
-    <section id="Contact Me">
-        <h1>Contact Me</h1>
-    </section>
-    <section id="Resume">
-        <h1>Resume</h1>
-    </section>
+    <div class="row">
+        <div class="side">
+            <article id="aboutMe">
+                <h1>About Me</h1>
+                <p>My name is Takuya Matsumoto and I am currently in attending the Rutgers Coding BootCamp.</p>
+                <img src="/Images/BlackandWhitePhotoOfMe.jpg" style="height: 350px">
+                <p>Some Text</p>
+                <h3>More Text</h3>
+                <p>Random Texts</p>
+                <div class="fakeimg" style="height: 60px;">Image</div>
+                <div class="fakeimg" style="height: 60px;">Image</div>
+                <div class="fakeimg" style="height: 60px;">Image</div>
+            </article>
+        </div>
+        <div class="main">
+            <section id="work_1">
+                <h2>Title Heading</h2>
+                <h5>Title Description, Feb, 19, 2021</h5>
+                <div class="fakeimg" style="height:60px;">Image</div>
+                <p>some text...</p>
+            </section>
+            <section id="work_2">
+                <h2>Title Heading</h2>
+                <h5>Title Description, Feb, 19, 2021</h5>
+                <div class="fakeimg" style="height:60px;">Image</div>
+                <p>some text...</p>
+            <section id="work_3">
+                <h2>Title Heading</h2>
+                <h5>Title Description, Feb, 19, 2021</h5>
+                <div class="fakeimg" style="height:60px;">Image</div>
+                <p>some text...</p>
+            </section>
+            </section>
+        </div>
+        <div class="footer">
+            <h2>Footer</h2>
+            <p>Add links to Contact Me and Resume</p>
+        </div>
+    </div>
+
 
 
 </body>

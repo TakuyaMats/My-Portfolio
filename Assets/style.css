@@ -1,16 +1,92 @@
-@import url(('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap');
 
-) * {
+* {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0;
+    background-image: url('../Images/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg');
+    height: 1920px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #A9A9A9;
+    opacity: 0.9;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    left: 80%;
+    height: 28%;
+}
+
+.navbar {
+    overflow: hidden;
+    /* background-color: #DCDCDC; */
+    top: 0;
+    position: fixed;
+    left: 80%;
+    top: 30%;
+    width: 20%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    top: 30%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    padding: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 50%;
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #DCDCDC;
+    opacity: 0.6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
 }
