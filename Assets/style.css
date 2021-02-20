@@ -4,78 +4,109 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    /* overflow: hidden; */
     margin: 0;
-    background-image: url('../Images/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg');
-    height: 1920px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+:root {
+    --dark: #A9A9A9;
+    --light: #F0F8FF;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
 }
 
 .header {
     padding: 80px;
     text-align: center;
-    background: #A9A9A9;
-    opacity: 0.9;
+    background: #1abc9c;
     color: white;
-    font-size: 20px;
-    position: fixed;
-    left: 80%;
-    height: 28%;
+}
+
+.header h1 {
+    font-size: 40px;
 }
 
 .navbar {
     overflow: hidden;
-    /* background-color: #DCDCDC; */
+    background-color: #333;
     top: 0;
-    position: fixed;
-    left: 80%;
-    top: 30%;
-    width: 20%;
+    position: sticky;
+    positoon: -webkit-sticky;
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #808080;
+    color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    top: 30%;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #666;
+    color: white;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
 }
 
 .side {
+    -ms-flex: 30%;
     flex: 30%;
+    background-color: #f1f1f1;
     padding: 20px;
 }
 
 .main {
+    -ms-flex: 70%;
     flex: 70%;
-    padding: 20px;
+    background-color: white;
 }
 
 .fakeimg {
     background-color: #aaa;
-    width: 50%;
+    width: 100%;
     padding: 20px;
 }
 
 .footer {
+    display: block;
+    background-color: #333;
     padding: 20px;
-    text-align: center;
-    background: #DCDCDC;
-    opacity: 0.6;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background: grey;
+    position: relative;
+    height: 200px;
+    margin-top: -100px;
+    clear: both;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 700px) {

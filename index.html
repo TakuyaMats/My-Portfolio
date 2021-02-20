@@ -7,67 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/Assets/style.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Takuya Matsumoto</h1>
-        <p>Welcome to my Portfolio!</p>
-    </div>
-    <div class="navbar">
-        <nav>
-            <div class="content-wrapper">
-                <a href="#aboutme">About Me</a>
-                <a href="#main">Work</a>
-                <a href="#contactMe">Contact Me</a>
-                <a href="#resume">Resume</a>
+    <div id="container">
+        <div id="main">
+            <div class="header">
+                <h1>Takuya Matsumoto</h1>
+                <p>Welcome to my Portfolio!</p>
             </div>
-        </nav>
+            <div class="navbar">
+                <nav>
+                    <div class="content-wrapper">
+                        <a href="#aboutMe">About Me</a>
+                        <a href="#work_1">Work</a>
+                        <a href="footer">Contact Me</a>
+                        <a href="footer">Resume</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="side">
+                    <article id="aboutMe">
+                        <h1>About Me</h1>
+                        <p>My name is Takuya Matsumoto and I am currently attending the <br> Rutgers Coding BootCamp.
+                            I have a BFA in Photography & Video from School of Visual Arts and I am currently working as a Freelance Digital Technician with a High End Still Life Photographer.
+                            I am currently working towards becoming a Full Stack Web Developer. 
+                        </p>
+                        <img src="/Images/BlackandWhitePhotoOfMe.jpg" style="height: 350px">
+                    </article>
+                </div>
+                <div class="main">
+                    <section id="work_1">
+                        <h2>Upcoming Project...</h2>
+                        <h5>Title Description, *Date</h5>
+                        <div class="fakeimg" style="height:60px;">Coming Soon..</div>
+                        <p>some text...</p>
+                    </section>
+                    <section id="work_2">
+                        <h2>Upcoming Project...</h2>
+                        <h5>Title Description, *Date</h5>
+                        <div class="fakeimg" style="height:60px;">Coming Soon..</div>
+                        <p>some text...</p>
+                    <section id="work_3">
+                        <h2>Upcoming Project...</h2>
+                        <h5>Title Description, *Date</h5>
+                        <div class="fakeimg" style="height:60px;">Coming Soon..</div>
+                        <p>some text...</p>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-        <div class="side">
-            <article id="aboutMe">
-                <h1>About Me</h1>
-                <p>My name is Takuya Matsumoto and I am currently in attending the Rutgers Coding BootCamp.</p>
-                <img src="/Images/BlackandWhitePhotoOfMe.jpg" style="height: 350px">
-                <p>Some Text</p>
-                <h3>More Text</h3>
-                <p>Random Texts</p>
-                <div class="fakeimg" style="height: 60px;">Image</div>
-                <div class="fakeimg" style="height: 60px;">Image</div>
-                <div class="fakeimg" style="height: 60px;">Image</div>
-            </article>
-        </div>
-        <div class="main">
-            <section id="work_1">
-                <h2>Title Heading</h2>
-                <h5>Title Description, Feb, 19, 2021</h5>
-                <div class="fakeimg" style="height:60px;">Image</div>
-                <p>some text...</p>
-            </section>
-            <section id="work_2">
-                <h2>Title Heading</h2>
-                <h5>Title Description, Feb, 19, 2021</h5>
-                <div class="fakeimg" style="height:60px;">Image</div>
-                <p>some text...</p>
-            <section id="work_3">
-                <h2>Title Heading</h2>
-                <h5>Title Description, Feb, 19, 2021</h5>
-                <div class="fakeimg" style="height:60px;">Image</div>
-                <p>some text...</p>
-            </section>
-            </section>
-        </div>
-        <div class="footer">
-            <h2>Footer</h2>
-            <p>Add links to Contact Me and Resume</p>
-        </div>
-    </div>
-
-
-
+    <footer class="footer">
+        <h2>Contact Me</h2>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-github"></a>
+    </footer>
 </body>
 
 </html>
