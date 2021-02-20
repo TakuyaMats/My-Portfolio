@@ -4,14 +4,10 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-}
-
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+    height: 100%;
 }
 
 /* :root {
@@ -24,16 +20,7 @@ body {
     background-image: url(../images/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#container::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-attachment: fixed;
 }
 
 #main {
@@ -45,7 +32,7 @@ body {
     padding: 80px;
     text-align: center;
     background-color: #aaa;
-    opacity: 0.8;
+    opacity: 0.9;
     background-size: cover;
     color: white;
 }
