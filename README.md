@@ -69,11 +69,11 @@ Patrick Walker: [https://github.com/pat31477]
 <a name="sources"></a>
 ## 5. Sources
 
-<!-- For the button Links in the Contact Me Section-->
+## For the button Links in the Contact Me Section
 - https://css-tricks.com/css-basics-styling-links-like-boss/
-<!-- For mostly template ideas, box model, styling css, Social Media Buttons-->
+## For mostly template ideas, box model, styling css, Social Media Buttons
 - https://www.w3schools.com/
-<!-- Background Image -->
+## Background Image
 - https://unsplash.com/@z734923105
 
 <a name="license"></a>
