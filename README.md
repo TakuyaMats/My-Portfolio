@@ -28,9 +28,9 @@ Smaller devices screen example:
 ### Click link to open in your browser.
 
 
-[github pages site] https://github.com/TakuyaMats/My-Portfolio.git
+[github pages site] https://takuyamats.github.io/My-Portfolio/
 
-[github repository site] https://takuyamats.github.io/My-Portfolio/
+[github repository site] https://github.com/TakuyaMats/My-Portfolio.git
 
 <a name="usage"></a>
 ## 3. Usage Tips
