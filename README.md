@@ -38,11 +38,11 @@ Smaller devices screen example:
 
 Desktop screen:
 
-![nav-menu](./Images/Nav_Menu_Browser "Navigational Menu")
+![nav-menu](./Images/Nav_Menu_Browser.png "Navigational Menu")
 
 Smaller devices screen example:
 
-![nav-menu](./Images/Nav_Menu_Mobile "Navigational Menu")
+![nav-menu](./Images/Nav_Menu_Mobile.png "Navigational Menu")
 
 
 
@@ -50,11 +50,11 @@ Smaller devices screen example:
 
 Desktop screen:
 
-![body-section](./Images/My_Portfolio_Browser "Body Section")
+![body-section](./Images/My_Portfolio_Browser.webm "Body Section")
 
 Smaller devices screen example:
 
-![body-section](./Images/My_Portfolio_Mobile "Body Section")
+![body-section](./Images/My_Portfolio_Mobile.webm "Body Section")
 
 
 <a name="contributions"></a>
